@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Site statique</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur mon site</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#" onclick="showPage('home')">Home</a></li>
+            <li><a href="#" onclick="showPage('about')">About</a></li>
+            <li><a href="#" onclick="showPage('contact')">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div id="home" class="page">
+            <img src="Interactive-Icon.webp" alt="Interactive-Icon">
+            <h2><p>Bienvenue sur notre site</p></h2>
+        </div>
+
+        <div id="about" class="page">
+            <h2>About me</h2>
+            <p>Cette web app est un exemple de site statique.</p>
+        </div>
+
+        <div id="contact" class="page">
+            <h2>Contact</h2>
+            <p>Vous pouvez nous contacter à l'adresse
+                <a href="https://www.gmail.com">yardjouman96@gmail.com</a>
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Ma Web App</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
